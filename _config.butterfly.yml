@@ -311,26 +311,12 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: rV1vhXugYj3s7SKcPrd9UmAh-MdYXbMMI # leancloud application app id
-  appKey: 3ALQANRa0qWgXiFMYWD7NaDp # leancloud application app key
-  pageSize: 10 # comment list page size
+  appId: qQwwxs3R6ptqWYCxjWcG3h0P-gzGzoHsz
+  appKey: R7TCWCowLKSlBMQHY7k2UUdo
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
   placeholder: 请留下你的评论。。 # valine comment input placeholder (like: Please leave your footprints)
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
-  recordIP: false # Record reviewer IP
-  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: # valine background
-  emojiCDN: # emoji CDN
-  enableQQ: false # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
-  requiredFields: nick,mail # required fields (nick/mail)
-  master: # md5加密后的博主邮箱
-    - 1c06c696868dd5247756909e962e9ba1  #可添加多个
-  friends: # md5加密后的小伙伴邮箱
-    - 53968b852b792c6f154bccf76fe8b93a #可添加多个
-  tagMeta: '博主,小伙伴,访客' # 标签要显示的文字,默认'博主,小伙伴,访客'
-  visitor: false
-  option:
 
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
@@ -914,7 +900,9 @@ inject:
     #动画标签anima的依赖
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css"  media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/mystyle.css">
+    - <script src="//code.tidio.co/bnoxnz50hw4pznakhxmrrv3ll2qctjit.js" async></script>
   bottom:
+    - <script src="//code.tidio.co/bnoxnz50hw4pznakhxmrrv3ll2qctjit.js" async></script>
     # - <script src="xxxx"></script>
     # 看板娘
     - <script defer src="/live2d-widget/autoload.js"></script>
@@ -941,7 +929,7 @@ CDN:
   gitalk: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
   gitalk_css: https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
   # valine: https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
-  valine: https://unpkg.com/valine@1.4.16/dist/Valine.min.js
+  valine: https://unpkg.com/valine@1.4.13/dist/Valine.min.js
   disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
   disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
@@ -1099,3 +1087,4 @@ gitcalendar:
 # 首页置顶轮播图
 sliderbar:
   enable: true
+
