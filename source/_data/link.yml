@@ -1,9 +1,15 @@
-- class_name: 糖果屋のVIP
-  class_desc: 售后服务享五折优惠2333
+- class_name: 朋友们！
+  class_desc: 来交朋友鸭～
   link_list:
-    - name: Akilar
-      link: https://akilar.top/
-      avatar: https://akilar.top/img/siteicon/favicon.png
-      descr: 欢迎光临糖果屋
-      siteshot: https://cdn.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/akilar.top.jpg
+    - name: 流逝de博客
+      link: https://www.168yf.cn/
+      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3380332037@qq.com,2312038309,&spec=100
+      descr: 欢迎光临流逝的博客
+      siteshot: https://image.thum.io/get/width/1024/crop/768/https://www.168yf.cn/
+    - name: 土土博客
+      link: https://www.tutime.cn
+      avatar: https://www.tutime.cn/3.jpg
+      descr: 一个初二的渣渣
+      siteshot: https://image.thum.io/get/width/1024/crop/768/https://www.tutime.cn
+  
       # siteshot就是站点缩略图的链接。
