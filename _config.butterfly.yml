@@ -360,7 +360,7 @@ twikoo:
 
 # Chat Button [recommend]
 # It will create a button in the bottom right corner of website, and hide the origin button
-chat_btn: false
+chat_btn: true
 
 # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
 chat_hide_show: false
@@ -374,8 +374,8 @@ chatra:
 # tidio
 # https://www.tidio.com/
 tidio:
-  enable: false
-  public_key:
+  enable: true
+  public_key: bnoxnz50hw4pznakhxmrrv3ll2qctjit
 
 # daovoice
 # http://daovoice.io/
@@ -401,7 +401,7 @@ footer:
   owner:
     enable: true
     since: 2022
-  custom_text: <a href="https://beian.miit.gov.cn/"><span>备案号：豫ICP备2021037417号</span></a>
+  custom_text: 
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -901,9 +901,8 @@ inject:
     #动画标签anima的依赖
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css"  media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/mystyle.css">
-    - <script src="//code.tidio.co/bnoxnz50hw4pznakhxmrrv3ll2qctjit.js" async></script>
   bottom:
-    - <script src="//code.tidio.co/bnoxnz50hw4pznakhxmrrv3ll2qctjit.js" async></script>
+    # - <script src="//code.tidio.co/bnoxnz50hw4pznakhxmrrv3ll2qctjit.js" async></script>
     - <div class="aplayer no-destroy" data-id="2786383462" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div>
     # - <script src="xxxx"></script>
     # 看板娘
@@ -1024,6 +1023,9 @@ CDN:
 ghbdage:
   enable: true
   bdageitem:
+    - link: https://beian.miit.gov.cn/  # 标签跳转链接
+      shields: https://img.shields.io/badge/%E8%B1%ABICP%E5%A4%87-2021037417%E5%8F%B7--2-e1d492?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAnFJREFUOE9jZKAAMFKglwGr5hfGTH+YuFi+/nv7i+8/CwOD5CUGxi8TWsV5CqpfIlsG1/xtwzzZLz25Z0Rj+2Q+PzmY///PJ8l/j6+bs8hon/lr49H4PTfrHbOB8RGx9WdtYQbANX/YMk3w77pZc5nf3DFl/PNFhomNgeH/HwaG/z8YGP58ZWD4r2a05W3u8sT0w29kHAx+XWlwdPwD1vzSRWk3X1ZOy7cJRftZBRkYWZgZGJg8kks50ub2gOR/7p6t+aUh9RqTe3y+YN3CSQxpW/8z/Wf4wfhi5yLuf5lxX7h9XRb9v70njpWTgYE1udeSzav4BLL/3tsx/GdQMF0iuOh0LFPeru//vv/iYHzqIHeDTVzgDePdS9bMogwMXDLcWwuK3xZPW24y6Y+AzLG/x3c0MDGwP2Jb9VNecuKlU8+ffTTV4Gfdf6PKwonxS3+Dwe+nN3x/713RxCLAwMAixvfm1oqPUgmnfm7uu7ek+7SsLVvXI96mjw9emchwM1wOUWdzn+Ch9RzkKrCfX1VnhjJe3V3O8PqOMQsLA4NAw0xRRsf0Nxq7386y4Wd4zMfyZ1OfkfhFkNr/27axM3p5/YRrfijI8J8zPb7935qFlczCDAyM/xgYuJJLrLgyeo4j+/u5u/5KiR0XIhgZGf/DNcMUvO8si/82u2sBMw8DAyMTAwMDL/dzhv9Mb/++/6L+981/Vt6uKcYCsTnnMOL5/9WrbA8stX9yxIV0sTCx3f11bHMVw/vP8gyiIveZnQMqf65cPuH3o68SKr8QqRJr8nxfVxH4cWrHOs7I8K4vs1eWKVU2MDM2NPxDzwcUZQwAM8DzO6cxJpIAAAAASUVORK5CYII= #shields的API链接，填法参考本篇教程
+      message: 本站备案号 #鼠标悬停时显示的信息
     - link: https://hexo.io/  # 标签跳转链接
       shields: https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo #shields的API链接，填法参考本篇教程
       message: 博客框架为Hexo_v5.3.0 #鼠标悬停时显示的信息
